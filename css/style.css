@@ -1,0 +1,20 @@
+html {
+	scroll-behavior: smooth;
+}
+
+.scrollspySite{
+	position: relative;
+	overflow: auto;
+	height: 659px;
+}
+
+.style-th{
+	background: transparent;
+	border: none;
+	cursor:pointer;
+	color: #007bff;
+}
+
+.modal-body p{
+	text-align: justify;
+}

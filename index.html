@@ -1,0 +1,1576 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <!-- Meta tags Obrigatórias -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="keywords" content="vacinfo, vacinas, cenário, vacinal, informações, calendário nacional de vacinação, pesquisa, cartão, vacinação, crianças, adolescentes, adultos, idosos, gestantes"/>
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+    <link rel="stylesheet" type="text/css" href="css/style.css"/>
+    <link rel="shortcut icon" type="image/png" href="imgs/faviconVacina.png"/>
+    <title>Vacinfo</title>
+
+  </head>
+  <body>
+
+
+    <!-- NAV BAR  -->
+    <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-primary">
+      
+      <div class="container">
+
+        <a class="navbar-brand h1 mb-0" href="#">Vacinfo</a>
+
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSite">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSite">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item ml-1"> <a class="nav-link" href="#">Início</a></li>
+            <li class="nav-item ml-1"> <a class="nav-link" href="#dadosPesquisa">Dados da Pesquisa</a></li>
+            <li class="nav-item ml-1"> <a class="nav-link" href="#vacinas">Vacinas</a></li>
+            <li class="nav-item ml-1"> <a class="nav-link" href="#calendario-nacional">Calendário de Vacinação</a></li>
+            <li class="nav-item"> <a class="nav-link ml-1" href="#sobre">Sobre</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- NAV BAR  -->
+
+
+    <!-- CAROUSEL INICIO -->
+    <div id="carouselSite" class="carousel slide mt-5" style="padding-top: 8px;" data-ride="carousel">
+      <ol class="carousel-indicators">
+        <li data-target="#carouselSite" data-slide-to="0" class="active"></li>
+        <li data-target="#carouselSite" data-slide-to="1"></li>
+        <li data-target="#carouselSite" data-slide-to="2"></li>
+        <li data-target="#carouselSite" data-slide-to="4"></li>
+      </ol>
+
+      <div class="carousel-inner">
+
+        <div class="carousel-item active">
+          <img class="d-block w-100" src="imgs/slide1.jpg" alt="Primeiro Slide" style="filter: brightness(25%);">
+          <div class="carousel-caption d-none d-xl-block">
+            <h5 style="color: #007bff; font-size: 50px;"><b>PESQUISA QUANTITATIVA DO ATUAL CENÁRIO VACINAL</b></h5>
+          </div>
+          <div class="carousel-caption d-block d-sm-none">
+            <h5 style="color: #007bff; font-size: 15px;"><b>PESQUISA QUANTITATIVA DO ATUAL CENÁRIO VACINAL</b></h5>   
+          </div>
+          <div class="carousel-caption d-none d-md-block d-lg-none">
+            <h5 style="color: #007bff; font-size: 20px;"><b>PESQUISA QUANTITATIVA DO ATUAL CENÁRIO VACINAL</b></h5>
+          </div>
+          <div class="carousel-caption d-none d-lg-block d-xl-none">
+            <h5 style="color: #007bff; font-size: 26px;"><b>PESQUISA QUANTITATIVA DO ATUAL CENÁRIO VACINAL</b></h5> 
+          </div>
+        </div>
+
+        <div class="carousel-item">
+          <img class="d-block w-100" src="imgs/slide2.jpg" alt="Segundo Slide" style="filter: brightness(50%);">
+          <div class="carousel-caption d-none d-xl-block">
+            <h5 style="color: #007bff; font-size: 50px;"><b>INFORMAÇÕES VACINAIS</b></h5>
+          </div>
+          <div class="carousel-caption d-block d-sm-none">
+            <h5 style="color: #007bff; font-size: 15px;"><b>INFORMAÇÕES VACINAIS</b></h5>
+          </div>
+          <div class="carousel-caption d-none d-md-block d-lg-none">
+            <h5 style="color: #007bff; font-size: 20px;"><b>INFORMAÇÕES VACINAIS</b></h5> 
+          </div>
+          <div class="carousel-caption d-none d-lg-block d-xl-none">
+            <h5 style="color: #007bff; font-size: 26px;"><b>INFORMAÇÕES VACINAIS</b></h5>  
+          </div>
+        </div>
+
+        <div class="carousel-item">
+          <img class="d-block w-100" src="imgs/slide3.jpg" alt="Terceiro Slide" style="filter: brightness(25%);">
+          <div class="carousel-caption d-none d-xl-block">
+            <h5 style="color: #007bff; font-size: 50px; "><b>AUXILIANDO NA TOMADA DE DECISÕES</b></h5>
+          </div>
+          <div class="carousel-caption d-block d-sm-none">
+            <h5 style="color: #007bff; font-size: 15px;"><b>AUXILIANDO NA TOMADA DE DECISÕES</b></h5>   
+          </div>
+          <div class="carousel-caption d-none d-md-block d-lg-none">
+            <h5 style="color: #007bff; font-size: 20px;"><b>AUXILIANDO NA TOMADA DE DECISÕES</b></h5>  
+          </div>
+          <div class="carousel-caption d-none d-lg-block d-xl-none">
+            <h5 style="color: #007bff; font-size: 26px;"><b>AUXILIANDO NA TOMADA DE DECISÕES</b></h5>  
+          </div>
+        </div>
+
+        <div class="carousel-item">
+          <img class="d-block w-100" src="imgs/slide4.jpg" alt="Quarto Slide" style="filter: brightness(25%);">
+          <div class="carousel-caption d-none d-xl-block">
+            <h5 style="color: #007bff; font-size: 45px;"><b>FÁCIL VISUALIZAÇÃO DO CARTÃO NACIONAL DE VACINAÇÃO</b></h5>
+          </div>
+          <div class="carousel-caption d-block d-sm-none">
+            <h5 style="color: #007bff; font-size: 15px;"><b>FÁCIL VISUALIZAÇÃO DO CARTÃO NACIONAL DE VACINAÇÃO</b></h5>   
+          </div>
+          <div class="carousel-caption d-none d-md-block d-lg-none">
+            <h5 style="color: #007bff; font-size: 20px;"><b>FÁCIL VISUALIZAÇÃO DO CARTÃO NACIONAL DE VACINAÇÃO</b></h5> 
+          </div>
+          <div class="carousel-caption d-none d-lg-block d-xl-none">
+            <h5 style="color: #007bff; font-size: 26px;"><b>FÁCIL VISUALIZAÇÃO DO CARTÃO NACIONAL DE VACINAÇÃO</b></h5>  
+          </div>
+        </div>
+
+      </div>
+
+      <a class="carousel-control-prev" href="#carouselSite" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Anterior</span>
+      </a>
+      <a class="carousel-control-next" href="#carouselSite" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Próximo</span>
+      </a>
+    </div>
+    <!-- CAROUSEL INICIO -->
+
+
+
+
+    <!-- DADOS DE PESQUISA  -->
+    <div id="dadosPesquisa" class="jumbotron jumbotron-fluid mt-2">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 text-center">
+            <h2 class="display-4">Dados da Pesquisa</h2>
+            <p style="font-size: 20px;">Informações coletadas através de um formulário quantitativo e analisadas com técnicas de Mineração de Dados <i>(K-means)</i></p>
+            <!--  <p style="font-size: 20px;"></p> -->
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-md-12">
+            <ul class="nav nav-pills justify-content-center mt-3" id="pills-nav" role=tablist>
+              <li class="nav-item"> <a href="#nav-item-dados-01" class="nav-link active" id="nav-pills-01" data-toggle="pill">Dados Coletados</a></li>
+              <li class="nav-item"> <a href="#nav-item-dados-02" class="nav-link" id="nav-pills-02" data-toggle="pill">Resultados da Análise</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>    
+    </div>
+
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+            <div class="tab-content" id="nav-pills-content" style="text-align: center; font-size: 13px;">
+
+              <div class="tab-pane fade show active mt-3" id="nav-item-dados-01" role="tabpanel">
+                <p style="font-size: 22px;">Coleta de dados realizada entre os dias 15/09 e 15/10 de 2018, totalizando 1.496 registros de pessoas que aceitaram participar da pesquisa.</p>
+                <div class="card-group">
+                  <div class="card">
+                    <img class="card-img-top" src="imgs/graficos/graf1.png" alt="Imagem de capa do card">
+                    <div class="card-body">
+                      <br></br>
+                      <h5 class="card-title">Percentual de participação</h5>
+                      <p class="card-text">No gráfico é possível notar que se obteve uma quantidade considerável de 96% (1496 pessoas) que aceitaram participar da pesquisa.</p>
+                    </div>
+                    <div class="card-footer">
+                      <small class="text-muted">Desenvolvido pelos autores</small>
+                    </div>
+                  </div>
+                  <div class="card">
+                    <img class="card-img-top" src="imgs/graficos/graf2.png" alt="Imagem de capa do card">
+                    <div class="card-body">
+                      <h5 class="card-title">Faixa etária dos participantes</h5>
+                      <p class="card-text">No gráfico observa-se que, dos participantes, 43,9% possuem idade entre 18 e 21 anos, já 30% são menores de idade, outros 20,7% estão entre 22 e 30 anos.</p>
+                    </div>
+                    <div class="card-footer">
+                      <small class="text-muted">Desenvolvido pelos autores</small>
+                    </div>
+                  </div>
+                  <div class="card">
+                    <img class="card-img-top" src="imgs/graficos/graf3.png" alt="Imagem de capa do card">
+                    <div class="card-body">
+                      <h5 class="card-title">Estado dos participantes</h5>
+                      <p class="card-text">No gráfico é apresentado a participação por estado, com a maior participação sendo de São Paulo 29,3%, em seguida Minas Gerais com 15% e Rio de Janeiro com 11,8%.</p>
+                    </div>
+                    <div class="card-footer">
+                      <small class="text-muted">Desenvolvido pelos autores</small>
+                    </div>
+                  </div>
+                </div>
+
+                <br></br>
+
+                <div class="card-group">
+                  <div class="card">
+                    <img class="card-img-top" src="imgs/graficos/graf4.png" alt="Imagem de capa do card">
+                    <div class="card-body">
+                      <h5 class="card-title">Dados sobre a percentual de pessoas que consideram vacinas importante</h5>
+                      <p class="card-text">No gráfico é possível perceber que a grande maioria considera importante receber vacinas, com 96,1% respondendo “Sim”. </p>
+                    </div>
+                    <div class="card-footer">
+                      <small class="text-muted">Desenvolvido pelos autores</small>
+                    </div>
+                  </div>
+                  <div class="card">
+                    <img class="card-img-top" src="imgs/graficos/graf5.png" alt="Imagem de capa do card">
+                    <div class="card-body">
+                      <h5 class="card-title">Acompanhamento dos participantes em relação as datas de validade de suas vacinas</h5>
+                      <p class="card-text">No gráfico é exibido o percentual em relação as pessoas que acompanham regularmente as datas de validade de suas vacinas.</p>
+                    </div>
+                    <div class="card-footer">
+                      <small class="text-muted">Desenvolvido pelos autores</small>
+                    </div>
+                  </div>
+                  <div class="card">
+                    <img class="card-img-top" src="imgs/graficos/graf6.png" alt="Imagem de capa do card">
+                    <div class="card-body">
+                      <h5 class="card-title">Influência da recomendação médica no ato de vacinação</h5>
+                      <p class="card-text">No gráfico é mostrado o percentual em relação a influência médica, destacando-se que 49,3% dos participantes nunca deixou de se vacinar por não ter recebido recomendações de um profissional da saúde, junto com outros 26,1% que respondeu raramente, contra 17% alegando que quase sempre e 7,6% afirmou que sempre deixa de se vacinar por falta de conselhos profissionais.</p>
+                    </div>
+                    <div class="card-footer">
+                      <small class="text-muted">Desenvolvido pelos autores</small>
+                    </div>
+                  </div>
+                </div>
+
+                <br></br>
+
+                <div class="card-group">
+                  <div class="card">
+                    <img class="card-img-top" src="imgs/graficos/graf7.png" alt="Imagem de capa do card">
+                    <div class="card-body">
+                      <h5 class="card-title">Percentual de participantes em relação ao recebimento de informações no ato de tomar a vacina</h5>
+                      <p class="card-text">No gráfico é possível notar que 34,6% dos participantes raramente recebem informações a respeito da vacina que está tomando e 19,3% nunca recebem informações, contra 24,1% que recebem informações quase sempre e 21,9% que recebem sempre.</p>
+                    </div>
+                    <div class="card-footer">
+                      <small class="text-muted">Desenvolvido pelos autores</small>
+                    </div>
+                  </div>
+                  <div class="card">
+                    <img class="card-img-top" src="imgs/graficos/graf8.png" alt="Imagem de capa do card">
+                    <div class="card-body">
+                      <h5 class="card-title">Percentual dos participantes que já perderam o cartão de vacinação</h5>
+                      <p class="card-text">No gráfico é exibido que 68,2% dos participantes nunca perderam seu cartão de vacinas, contra 31,8% dos que já perderam.</p>
+                    </div>
+                    <div class="card-footer">
+                      <small class="text-muted">Desenvolvido pelos autores</small>
+                    </div>
+                  </div>
+                  <div class="card">
+                    <img class="card-img-top" src="imgs/graficos/graf9.png" alt="Imagem de capa do card">
+                    <div class="card-body">
+                      <h5 class="card-title">Percentual referente ao conhecimento dos riscos de superdosagem de vacinas</h5>
+                      <p class="card-text">No gráfico é notável que 44% dos participantes possuem um conhecimento parcial sobre a superdosagem de vacinas, já 19,7% afirma não ter nenhum entendimento a respeito do recebimento excessivo de vacinas.</p>
+                    </div>
+                    <div class="card-footer">
+                      <small class="text-muted">Desenvolvido pelos autores</small>
+                    </div>
+                  </div>
+                </div>
+
+                <br></br>
+
+                <div class="card-group">
+                  <div class="card">
+                    <img class="card-img-top" src="imgs/graficos/graf10.png" alt="Imagem de capa do card">
+                    <div class="card-body">
+                      <h5 class="card-title">Percentual referente a dificuldade em armazenar o cartão de vacinação</h5>
+                      <p class="card-text">No gráfico observa-se o percentual de pessoas que alegam ter dificuldades em armazenar o cartão de vacinação, 51,8% disseram que sim e 48,2% alegou que não.</p>
+                    </div>
+                    <div class="card-footer">
+                      <small class="text-muted">Desenvolvido pelos autores</small>
+                    </div>
+                  </div>
+                  <div class="card">
+                    <img class="card-img-top" src="imgs/graficos/graf11.png" alt="Imagem de capa do card">
+                    <div class="card-body">
+                      <h5 class="card-title">Percentual de pessoas que gostariam da digitalização do cartão de vacinas</h5>
+                      <p class="card-text">No gráfico é possível perceber que 95,5% dos participantes, gostariam que o cartão de vacinas fosse digitalizado.</p>
+                    </div>
+                    <div class="card-footer">
+                      <small class="text-muted">Desenvolvido pelos autores</small>
+                    </div>
+                  </div>
+                  <div class="card">
+                    <img class="card-img-top" src="imgs/graficos/graf12.png" alt="Imagem de capa do card">
+                    <div class="card-body">
+                      <h5 class="card-title">Percentual referente a quantia de pessoas que assumiram o risco de receber vacina repetida</h5>
+                      <p class="card-text">No gráfico é exibido o percentual de 73,7% das pessoas que nunca assumiram o risco de receber uma mesma vacina mais de uma vez, pois não conseguiu conferir se já havia tomado anteriormente, contra 15,2% que alegaram assumir o risco uma vez, 7% várias vezes e 4,1% duas vezes.</p>
+                    </div>
+                    <div class="card-footer">
+                      <small class="text-muted">Desenvolvido pelos autores</small>
+                    </div>
+                  </div>
+                </div>
+
+                <br></br>
+
+                <div class="card-group">
+                  <div class="card">
+                    <img class="card-img-top" src="imgs/graficos/graf13.png" alt="Imagem de capa do card">
+                    <div class="card-body">
+                      <h5 class="card-title">Percentual de pessoas que deixaram de receber vacina por acreditar que a mesma o deixa doente</h5>
+                      <p class="card-text">No gráfico é possível notar que 79,8% dos participantes nunca deixou de tomar alguma vacina por achar que ela o deixaria doente, contra 11,7% que já deixou de receber uma vez, 6% várias vezes e 2,5% duas vezes.</p>
+                    </div>
+                    <div class="card-footer">
+                      <small class="text-muted">Desenvolvido pelos autores</small>
+                    </div>
+                  </div>
+                  <div class="card">
+                    <img class="card-img-top" src="imgs/graficos/graf14.png" alt="Imagem de capa do card">
+                    <div class="card-body">
+                      <h5 class="card-title">Percentual de pessoas que já tiveram que pagar por alguma vacina pelo motivo de perda do período vacinal</h5>
+                      <p class="card-text">No gráfico é notável que 76,6% das pessoas que participaram da pesquisa nunca tiveram que pagar por alguma vacina por perder o período vacinal, contra 13,7% que alegou o ocorrido uma vez, 6,8% várias vezes e 2,9% duas vezes.</p>
+                    </div>
+                    <div class="card-footer">
+                      <small class="text-muted">Desenvolvido pelos autores</small>
+                    </div>
+                  </div>
+                  <div class="card">
+                    <img class="card-img-top" src="imgs/graficos/graf15.png" alt="Imagem de capa do card">
+                    <div class="card-body">
+                      <h5 class="card-title">Percentual de pessoas que encontrou dificuldades em receber vacina devido ao seu esgotamento</h5>
+                      <p class="card-text">No gráfico observa-se que 53,7% dos participantes nunca encontraram dificuldades em receber vacina pelo fato da mesma ter esgotado em sua região, 21,5% afirmou o acontecido uma vez, 19,2% várias vezes e 5,7% duas vezes.</p>
+                    </div>
+                    <div class="card-footer">
+                      <small class="text-muted">Desenvolvido pelos autores</small>
+                    </div>
+                  </div>
+                </div>
+
+                <br></br>
+
+                <div class="card-group">
+                  <div class="card">
+                    <img class="card-img-top" src="imgs/graficos/graf16.png" alt="Imagem de capa do card">
+                    <div class="card-body">
+                      <h5 class="card-title">Percentual de pessoas que não possuem filhos</h5>
+                      <p class="card-text">No gráfico observa-se que o percentual de 93,4% dos participantes não possui filho, devido ao fato que grande parte possuí menos de 18 anos ou têm até 21 anos de idade.</p>
+                    </div>
+                    <div class="card-footer">
+                      <small class="text-muted">Desenvolvido pelos autores</small>
+                    </div>
+                  </div>
+                  <div class="card">
+                    <img class="card-img-top" src="imgs/graficos/graf17.png" alt="Imagem de capa do card">
+                    <div class="card-body">
+                      <h5 class="card-title">Percentual de pessoas que deixaram de vacinar seus filhos</h5>
+                      <p class="card-text">No gráfico nota-se que de 101 participantes que possuem filhos, 90,1% nunca deixaram de vacina-lo, contra 9,9% que deixou de vacinar uma vez.</p>
+                    </div>
+                    <div class="card-footer">
+                      <small class="text-muted">Desenvolvido pelos autores</small>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="tab-pane fade show mt-3" id="nav-item-dados-02" role="tabpanel">
+              
+                <p style="font-size: 22px;">A análise se aplicou somente na região sudeste pelo fato de representarem o maior percentual de participação, sendo assim, se inferiu as seguintes informações:</p>
+
+                
+                <p class="lead" style="text-align: justify;">&#8226; Independente do perfil analisado, todos os grupos consideram importante receber vacinas e possuem conhecimento parcial de superdosagem.</p>
+
+                <p class="lead" style="text-align: justify;">&#8226; Identificado que do total de analisados da região sudeste, 93,13% nunca perdeu o cartão de vacinas, o que nos permite inferir que possuem um bom comportamento em relação ao seu armazenamento.</p>
+
+                <p class="lead" style="text-align: justify;">&#8226; Observado que 53,31% dos avaliados, não encontram dificuldades em armazenar o cartão vacinal, no entanto, 100% das pessoas gostariam que ele fosse digitalizado, nos permitindo concluir que indiferente de possuírem dificuldade ou não em armazena-lo, todas elas julgam que a digitalização do cartão os beneficiariam.</p>
+
+                <p class="lead" style="text-align: justify;">&#8226; Percebeu-se dois perfis que pertencem ao estado de Minas Gerais que totalizam 9,92% dos examinados, os mesmos assumiram o risco em receber doses repetidas de vacina pelo ou menos duas vezes, isso nos possibilita deduzir que possuem um comportamento preocupante em relação a superdosagem comparado aos outros estados da região sudeste, visto que não houve nenhum outro perfil que alegou arcar com tal risco.</p>
+              </div>
+
+            </div>
+
+            <br></br>
+        </div>
+      </div>
+    </div>
+
+    <!-- DADOS DE PESQUISA  -->
+
+
+    <!-- VACINAS  -->
+    <div id="vacinas" class="jumbotron jumbotron-fluid mt-3">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 text-center">
+            <h2 class="display-4">Vacinas</h2>
+            <p style="font-size: 20px;">Informações das respectivas vacinas do Calendário Nacional de Vacinação</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+        <div class="row">
+          <div class="col-lg-3 col-md-4 col-sm-6 mb-2">
+            <nav id="navbarVertical2" class="navbar navbar-light bg-light">
+              <nav class="nav nav-pills flex-column">
+
+                <a href="#nav-item-vacina-01" class="nav-link active" id="nav-pills-01" data-toggle="pill">BCG</a>
+                <a href="#nav-item-vacina-02" class="nav-link" id="nav-pills-02" data-toggle="pill">Dupla Adulto</a>
+                <a href="#nav-item-vacina-03" class="nav-link" id="nav-pills-02" data-toggle="pill">dTpa7</a>
+                <a href="#nav-item-vacina-04" class="nav-link" id="nav-pills-03" data-toggle="pill">Febre Amarela</a>
+                <a href="#nav-item-vacina-05" class="nav-link" id="nav-pills-04" data-toggle="pill">Hepatite A</a>
+                <a href="#nav-item-vacina-06" class="nav-link" id="nav-pills-05" data-toggle="pill">Hepatite B</a>
+                <a href="#nav-item-vacina-07" class="nav-link" id="nav-pills-01" data-toggle="pill">HPV</a>
+                <a href="#nav-item-vacina-08" class="nav-link" id="nav-pills-01" data-toggle="pill">Meningocócica C</a>
+                <a href="#nav-item-vacina-09" class="nav-link" id="nav-pills-01" data-toggle="pill">Penta/DTP</a>
+                <a href="#nav-item-vacina-10" class="nav-link" id="nav-pills-01" data-toggle="pill">Pneumocócica 10v</a>
+                <a href="#nav-item-vacina-11" class="nav-link" id="nav-pills-01" data-toggle="pill">Pneumocócica 23V</a>
+                <a href="#nav-item-vacina-12" class="nav-link" id="nav-pills-01" data-toggle="pill">Rotavírus Humano</a>
+                <a href="#nav-item-vacina-13" class="nav-link" id="nav-pills-01" data-toggle="pill">Tetra Viral</a>
+                <a href="#nav-item-vacina-14" class="nav-link" id="nav-pills-01" data-toggle="pill">Tríplice Viral</a>
+                <a href="#nav-item-vacina-15" class="nav-link" id="nav-pills-01" data-toggle="pill">Varicela</a>
+                <a href="#nav-item-vacina-16" class="nav-link" id="nav-pills-01" data-toggle="pill">VIP/VOP</a>
+                
+                
+              </nav>
+            </nav>
+          </div>
+
+          <div class="col-lg-9 col-md-8 col-sm-6" style="text-align: justify; font-size: 20px;">
+            <div class="tab-content" id="nav-pills-content">
+              
+              <div class="tab-pane fade show active mt-3" id="nav-item-vacina-01" role="tabpanel">
+                <h4 style="text-align: center; color: #007bff;">BCG</h4>
+                <p>A vacina BCG é uma importante aliada para saúde do bebê. Pois estimula a criação de anticorpos ajudando o a se proteger contra a tuberculose. A recomendação é de vacinar ao nascer. Mas caso isso não ocorra ela pode ser domada até os cinco anos. A vacina BCG e de uma única dose para a vida toda. Uma das possíveis reações à vacina são gânglios e abscessos na pele e axilas.</p>
+
+                <h4><font color="red">Contra: </font><em> Tuberculose</em></h4>
+              </div>
+
+              <div class="tab-pane fade show mt-3" id="nav-item-vacina-02" role="tabpanel">
+                <h4 style="text-align: center; color: #007bff;">Dupla Adulto</h4>
+                <p>A vacina Dupla Adulto ajuda na prevenção do tétano e difteria, e está disponível a partir dos 10 anos de idade nos postos de saúde, sendo necessário o reforço a cada 10 anos. A vacina e contraindicado para menores de 7 anos e para alérgicos a algum componente da vacina. Pode ocorrer efeitos adversos como: vermelhidão e inchaço no local onde ocorreu a vacinação, em alguns casos febre, sonolência, mal-estar e vômitos.</p>
+
+                <h4><font color="red">Contra:</font><em> Difteria e tétano.</em></h4>
+              </div>
+
+              <div class="tab-pane fade show mt-3" id="nav-item-vacina-03" role="tabpanel">
+                <h4 style="text-align: center; color: #007bff;">dTpa7</h4>
+                <p>A vacina dTpa7 auxilia na proteção de doenças como a difteria, tétano e coqueluche. Ela e indicada para gestantes a partir da 20ª semana de gravidez, pois auxilia a produção de anticorpos que irão ajudar na proteção do bebê. Pode surgir alguns efeitos colaterais como: dor, formação de nódulos e vermelhidão no local onde ocorreu a vacinação, em alguns casos pode causar irritabilidade, febre e sonolência.</p>
+
+                <h4><font color="red">Contra:</font><em> Difteria, tétano e coqueluche.</em></h4>
+              </div>
+
+              <div class="tab-pane fade show mt-3" id="nav-item-vacina-04" role="tabpanel">
+                <h4 style="text-align: center; color: #007bff;">Febre Amarela</h4>
+                <p>A vacina contra Febre Amarela está disponível durante o ano todo nos postos de saúde. É recomendada para bebês a partir dos 9 meses de vida, sendo necessário uma única dose. Existe algumas contraindicações nos seguintes casos: crianças menores de 9 meses de vida, gestantes, portadores de imundos pressões graves, alérgicos ao ovo, portadores de lúpus, artrite reumatoide, doenças de Addison e do Tino, entre outras. Efeitos adversos possíveis como dor de cabeça e febre. O vírus da Febra Amarela é transmitido por meio da picada de mosquito.</p>
+
+                <h4><font color="red">Contra: </font><em> Febre amarela</em></h4>
+              </div>
+
+              <div class="tab-pane fade show mt-3" id="nav-item-vacina-05" role="tabpanel">
+                <h4 style="text-align: center; color: #007bff;">Hepatite A</h4>
+                <p>A vacina contra Hepatite A Estimula a produção de anticorpos para imunização do vírus. É necessária uma única dose, sendo indicada para crianças a partir dos 15 meses de vida. A vacina pode ocasionar alguns efeitos colaterais como: surgimento de dores de cabeça, dor de barriga, diarreia, vômitos, cansaço excessivo e dor nas articulações.</p>
+
+                <h4><font color="red">Contra: </font><em> Hepatite A</em></h4>
+              </div>
+
+              <div class="tab-pane fade show mt-3" id="nav-item-vacina-06" role="tabpanel">
+                <h4 style="text-align: center; color: #007bff;">Hepatite B</h4>
+                <p>A vacina da Hepatite B é obrigatória de acordo com o calendário de vacinação nacional, a Hepatite B é a inflamação do fígado devido à infecção causada pelo vírus. É necessárias 3 doses da vacina, a 1ª aplicação pode ser em qualquer data, a 2ª aplicação 1 mês após a primeira dose e a 3ª aplicação 6 meses após a primeira dose. Algumas das reações adversas são: febra baixa nos primeiros dois dias, reações alérgicas para pessoas que são alérgicos a leveduras.</p>
+
+                <h4><font color="red">Contra: </font><em> Hepatite B</em></h4>
+              </div>
+
+              <div class="tab-pane fade show mt-3" id="nav-item-vacina-07" role="tabpanel">
+                <h4 style="text-align: center; color: #007bff;">HPV</h4>
+                <p>A vacina contra o HPV e o câncer do colo de útero, também conhecida como papiloma vírus. Esta vacina é distribuída gratuitamente nos postos de saúde e pelo SUS, a vacina oferecida pelo SUS é a quadrivalente, que protege contra quatro tipo de vírus HPV, caso a pessoa vacinada seja infectada a doença não irá se desenvolver. Pelo SUS é possível vacinar entre 9 e 14 anos de idade, sendo necessário de 2 a 3 doses da vacina. É contraindicado para gestantes e em caso de doenças como a trombocitopenia pelo fato da redução no número de plaquetas. A vacina possui efeitos colaterais como febre e dor de cabeça.</p>
+
+                <h4><font color="red">Contra: </font><em> HPV e o câncer do colo de útero. </em></h4>
+              </div>
+
+              <div class="tab-pane fade show mt-3" id="nav-item-vacina-08" role="tabpanel">
+                <h4 style="text-align: center; color: #007bff;">Meningocócica C</h4>
+                <p>A vacina Meningocócica C é utilizada para prevenção de doenças como a meningite e a sepse. É recomendado a vacinação de crianças entre 3 mês até 1 ano de idade, sendo necessário duas doses com intervalo mínimo de 30 dias da primeira vacinação, e depois um reforço até no máximo de 4 anos de idade. Alguns efeitos adversos possíveis são: edema, rubor, endurecimento e dor na região onde ocorreu a vacinação.</p>
+
+                <h4><font color="red">Contra: </font><em> Doenças causadas pelo meningococo C (meningite, meningococcemia entre outras)</em></h4>
+              </div>
+
+              <div class="tab-pane fade show mt-3" id="nav-item-vacina-09" role="tabpanel">
+                <h4 style="text-align: center; color: #007bff;">Penta/DTP</h4>
+                <p>A vacina Penta/DTP é uma vacina combinada que foi desenvolvida a fim de diminuir o número de injeções de uma só vez, ela previne doenças como coqueluche, hepatite B, pneumonias, meningite, sarampo, rubéola, difteria. Está vacina e indicada para crianças a partir de dois meses de idade, é necessárias três doses, com um intervalo de dois meses após a primeira aplicação, sendo necessário além disso fazer dois reforços o primeiro após 15 meses o segundo após 48 meses. Algumas das reações adversas são: febra baixa nas primeiras 24 horas, pode ocorrer dor no local da aplicação sintomas como endurecimento, inchaço e vermelhidão.</p>
+
+                <h4><font color="red">Contra: </font><em> Sarampo, rubéola, difteria, coqueluche, hepatite B, pneumonias, meningite, rotavírus e poliomielite.</em></h4>
+              </div>
+
+              <div class="tab-pane fade show mt-3" id="nav-item-vacina-10" role="tabpanel">
+                <h4 style="text-align: center; color: #007bff;">Pneumocócica 10v</h4>
+                <p>A vacina Pneumocócica 10 Valente Conjugada (VPC10) e utilizada para prevenir dez sorotipos de pneumococos, dentre elas a meningite, pneumonia entre outras. É indicada para crianças a partir de 2 meses até os 6 anos de idade. Para adultos e recomendado o (VPC13) ou (VPC23). A primeira imunização consiste em 3 doses, com intervalo de 2 meses entre as doses, é indicado a partir de 2 meses de idade. Recomenda-se uma dose de reforço no segundo ano de vida. Algumas das reações adversas são: Perda de apetite, sonolência, dor, vermelhidão e inchaço no local da injeção e febre.</p>
+
+                <h4><font color="red">Contra: </font><em> Pneumonia, meningite, otite</em></h4>
+              </div>
+
+              <div class="tab-pane fade show mt-3" id="nav-item-vacina-11" role="tabpanel">
+                <h4 style="text-align: center; color: #007bff;">Pneumocócica 23V</h4>
+                <p>A vacina Pneumocócica 23V ajuda na prevenção de infecções de bacteremia e pneumonia, ela consiste nos 23 tipos mais recorrentes de pneumococos de Streptococcus pneumonia. Para realizar a vacinação e necessário a orientação de um médico, ou para maiores de 60 anos. É contraindicada para crianças menores de dois anos. Pode ocorrer efeitos adversos como: dor no local onde ocorreu a vacina, endurecimento, inchaço, vermelhidão manchas vermelha, cansaço e dores musculares.</p>
+
+                <h4><font color="red">Contra: </font><em> Doenças causadas por 23 tipos de pneumococos</em></h4>
+              </div>
+
+              <div class="tab-pane fade show mt-3" id="nav-item-vacina-12" role="tabpanel">
+                <h4 style="text-align: center; color: #007bff;">Rotavírus Humano</h4>
+                <p>A vacina contra o Rotavírus ajuda na proteção de gastroenterites causadas pelo vírus, sua aplicação é via oral, sendo necessário 2 doses da vacina. É indicado para os 2 meses de vida a primeira dose, e a segunda dose aos 4 meses de vida. É contraindicado para crianças que apresentaram problemas gastrointestinal crônica ou com imunodeficiências primárias e secundárias. Efeitos adversos como invaginação pode ocorrer apesar do risco ser menor do que a gastrenterite causada pelo rotavírus, também pode ocorrer sintomas de gastrenterite.</p>
+
+                <h4><font color="red">Contra: </font><em> Rotavírus</em></h4>
+              </div>
+
+              <div class="tab-pane fade show mt-3" id="nav-item-vacina-13" role="tabpanel">
+                <h4 style="text-align: center; color: #007bff;">Tetra Viral</h4>
+                <p>A vacina da tetra viral é parecida com a da vacina tríplice viral e consiste na combinação de vírus em uma única vacina, no caso da tetra viral ajuda na imunização contra as doenças de caxumba, sarampo, rubéola e catapora. A vacina é indicada a partir de 12 meses de vida. As contraindicações são para alérgicos a ovos, gestantes, crianças com neoplasias malignas e sob efeito de corticosteroides, pessoas com imunossupressores ou radioterapias deve adiar a vacinação. Efeitos adversos possíveis como febre.</p>
+
+                <h4><font color="red">Contra: </font><em> Sarampo, caxumba, rubéola e catapora</em></h4>
+              </div>
+
+              <div class="tab-pane fade show mt-3" id="nav-item-vacina-14" role="tabpanel">
+                <h4 style="text-align: center; color: #007bff;">Tríplice Viral</h4>
+                <p>A vacina do tríplice viral é um combinatório de vírus atenuados para prevenção de doenças como sarampo, caxumba e rubéola. Apesar da rubéola e o sarampo estarem erradicadas no Brasil, é de extrema importância a vacina para evitar o reaparecimento da doença no continente brasileiro. A vacina é indicada para crianças com mais de 1 ano de vida, sendo necessário duas doses para pessoas com menos de 30 anos de idade após essa idade caso ainda não tenha se vacinado antes e necessário apenas 1 única dose da vacina.</p>
+
+                <h4><font color="red">Contra: </font><em> Sarampo, caxumba e rubéola</em></h4>
+              </div>
+
+              <div class="tab-pane fade show mt-3" id="nav-item-vacina-15" role="tabpanel">
+                <h4 style="text-align: center; color: #007bff;">Varicela</h4>
+                <p>A vacina contra Varicela ou catapora é preparada de vírus vivos atenuados. É indicada para crianças com idade entre 1 aos 12 anos de vida, sendo necessário uma única dose, no caso de um adulto não tenha se vacinado e necessário 2 doses. É contraindicado para gestantes, pessoas com deficiência no sistema imunológico. Efeitos adversos podem surgir como febre e dor no local da injeção.</p>
+
+                <h4><font color="red">Contra: </font><em> Catapora</em></h4>
+              </div>
+
+              <div class="tab-pane fade show mt-3" id="nav-item-vacina-16" role="tabpanel">
+                <h4 style="text-align: center; color: #007bff;">VIP/VOP</h4>
+                <p>As vacinas VIP/VOP são de extrema importância para as crianças pois ajudam a evitar a paralisia infantil pois se trata de uma doença altamente contagiosa, sendo transmitida de pessoa a pessoa. A vacina VIP e injetável sendo necessário duas doses, a primeira aos 2 meses de idade e a segunda aos 4 meses. Já a VOP deve ser ingerida em forma de gotinhas, também sendo necessário duas doses, a primeira aos 6 meses de idade e a segunda aos 15 meses. A vacina VOP é indicado um jejum de 1 hora antes e 1 hora depois da vacina. Uma das possíveis reações à vacina é diarreia.</p>
+
+                <h4><font color="red">Contra: </font><em> Poliomielite</em></h4>
+              </div>
+
+            </div>
+          </div>
+
+        </div>  <!-- ROW -->
+    </div>
+    <!-- VACINAS  -->
+    
+
+    <!-- CALENDARIO NACIONAL  -->
+    <div id="calendario-nacional" class="jumbotron jumbotron-fluid mt-2">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 text-center">
+            <h2 class="display-4">Calendário Nacional de Vacinação</h2>
+            <!--  <p style="font-size: 20px;"></p> -->
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-md-12">
+            <ul class="nav nav-pills justify-content-center mt-3" id="pills-nav" role=tablist>
+              <li class="nav-item"> <a href="#nav-item-01" class="nav-link active" id="nav-pills-01" data-toggle="pill">Crianças</a></li>
+              <li class="nav-item"> <a href="#nav-item-02" class="nav-link" id="nav-pills-02" data-toggle="pill">Adolescentes</a></li>
+              <li class="nav-item"> <a href="#nav-item-03" class="nav-link" id="nav-pills-03" data-toggle="pill">Adultos</a></li>
+              <li class="nav-item"> <a href="#nav-item-04" class="nav-link" id="nav-pills-04" data-toggle="pill">Idosos</a></li>
+              <li class="nav-item"> <a href="#nav-item-05" class="nav-link" id="nav-pills-05" data-toggle="pill">Gestantes</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>    
+    </div>
+
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+            <div class="tab-content" id="nav-pills-content" style="text-align: center; font-size: 13px;">
+              
+              <div class="tab-pane fade show active mt-3" id="nav-item-01" role="tabpanel">
+                <table class="table table-sm table-bordered table-responsive table-striped" style= "white-space: nowrap;">
+                  <thead>
+                    <tr>
+                      <th scope="col"></th>
+                      <th scope="col">Ao nascer</th>
+                      <th scope="col">2 meses</th>
+                      <th scope="col">3 meses</th>
+                      <th scope="col">4 meses</th>
+                      <th scope="col">5 meses</th>
+                      <th scope="col">6 meses</th>
+                      <th scope="col">9 meses</th>
+                      <th scope="col">12 meses</th>
+                      <th scope="col">15 meses</th>
+                      <th scope="col">4 anos</th>
+                      <th scope="col">5 anos</th>
+                      <th scope="col">9 anos</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <th scope="row"><button type="button" class="style-th" data-toggle="modal" data-target="#ModalBCG"><b>BCG</b></button></th>
+                      <td>Dose única</td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                      <td>Dose única</td>
+                      <td></td>
+                      <td></td>
+                    </tr>
+                    <tr>
+                      <th scope="row"><button type="button" class="style-th" data-toggle="modal" data-target="#ModalHepatiteB"><b>Hepatite B</b></button></th>
+                      <td>Dose ao nascer</td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                      <td>Dose ao nascer</td>
+                      <td></td>
+                      <td></td>
+                    </tr>
+                    <tr>
+                      <th scope="row"><button type="button" class="style-th" data-toggle="modal" data-target="#ModalPenta"><b>Penta/DTP</b></button></th>
+                      <td></td>
+                      <td>1ª dose (com penta)</td>
+                      <td></td>
+                      <td>2ª dose (com penta)</td>
+                      <td></td>
+                      <td>3ª dose (com penta)</td>
+                      <td></td>
+                      <td></td>
+                      <td>1° reforço (com DTP)</td>
+                      <td>2° reforço (com DTP)</td>
+                      <td></td>
+                      <td></td>
+                    </tr>
+                     <tr>
+                      <th scope="row"><button type="button" class="style-th" data-toggle="modal" data-target="#ModalVip"><b>VIP/VOP</b></button></th>
+                      <td></td>
+                      <td>1ª dose (com VIP)</td>
+                      <td></td>
+                      <td>2ª dose (com VIP)</td>
+                      <td></td>
+                      <td>3ª dose (com VIP)</td>
+                      <td></td>
+                      <td></td>
+                      <td>1° reforço (com VOP)</td>
+                      <td>2° reforço (com VOP)</td>
+                      <td></td>
+                      <td></td>
+                    </tr>
+                     <tr>
+                      <th scope="row"><button type="button" class="style-th" data-toggle="modal" data-target="#ModalP10V"><b>Pneumocócia 10V</b></button></th>
+                      <td></td>
+                      <td>1ª dose</td>
+                      <td></td>
+                      <td>2ª dose</td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                      <td>Reforço</td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                    </tr>
+                     <tr>
+                      <th scope="row"><button type="button" class="style-th" data-toggle="modal" data-target="#ModalRH"><b>Rotavírus Humano</b></button></th>
+                      <td></td>
+                      <td>1ª dose</td>
+                      <td></td>
+                      <td>2ª dose</td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                    </tr>
+                     <tr>
+                      <th scope="row"><button type="button" class="style-th" data-toggle="modal" data-target="#ModalMenC"><b>Meningocócica C</b></button></th>
+                      <td></td>
+                      <td></td>
+                      <td>1ª dose</td>
+                      <td></td>
+                      <td>2ª dose</td>
+                      <td></td>
+                      <td></td>
+                      <td>Reforço</td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                    </tr>
+                     <tr>
+                      <th scope="row"><button type="button" class="style-th" data-toggle="modal" data-target="#ModalFA"><b>Febre Amarela</b></button></th>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                      <td>Dose única</td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                    </tr>
+                     <tr>
+                      <th scope="row"><button type="button" class="style-th" data-toggle="modal" data-target="#ModalHepatiteA"><b>Hepatite A</b></button></th>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                      <td>Uma dose</td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                    </tr>
+                     <tr>
+                      <th scope="row"><button type="button" class="style-th" data-toggle="modal" data-target="#ModalTriV"><b>Tríplice Viral</b></button></th>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                      <td>1ª dose</td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                    </tr>
+                     <tr>
+                      <th scope="row"><button type="button" class="style-th" data-toggle="modal" data-target="#ModalTetV"><b>Tetra Viral</b></button></th>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                      <td>Uma dose</td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                    </tr>
+                     <tr>
+                      <th scope="row"><button type="button" class="style-th" data-toggle="modal" data-target="#ModalVaricela"><b>Varicela</b></button></th>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                      <td>Uma dose</td>
+                      <td></td>
+                      <td></td>
+                    </tr>
+                    <tr>
+                      <th scope="row"><button type="button" class="style-th" data-toggle="modal" data-target="#ModalHPV"><b>HPV</b></button></th>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                    </tr>
+                     <tr>
+                      <th scope="row"><button type="button" class="style-th" data-toggle="modal" data-target="#ModalP23V"><b>Pneumocócica 23V</b></button></th>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                      <td>Uma dose a depender da situação vacinal com a PNM10v</td>
+                      <td></td>
+                    </tr>
+                    <tr>
+                      <th scope="row"><button type="button" class="style-th" data-toggle="modal" data-target="#ModalDA"><b>Dupla Adulto</b></button></th>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                    </tr>
+                    <tr>
+                      <th scope="row"><button type="button" class="style-th" data-toggle="modal" data-target="#ModaldTpa"><b>dTpa</b></button></th>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+
+              <div class="tab-pane fade show mt-3" id="nav-item-02" role="tabpanel">
+                <table class="table table-sm table-bordered table-striped">
+                  <thead>
+                    <tr>
+                      <th scope="col"></th>
+                      <th scope="col">Adolescente</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <th scope="row"><button type="button" class="style-th" data-toggle="modal" data-target="#ModalBCG"><b>BCG</b></button></th>
+                      <td></td>   
+                    </tr>
+                    <tr>
+                      <th scope="row"><button type="button" class="style-th" data-toggle="modal" data-target="#ModalHepatiteB"><b>Hepatite B</b></button></th>
+                      <td>3 doses(Verificar a situação vacinal)</td>
+                    </tr>
+                    <tr>
+                      <th scope="row"><button type="button" class="style-th" data-toggle="modal" data-target="#ModalPenta"><b>Penta/DTP</b></button></th>
+                      <td></td>
+                    </tr>
+                    <tr>
+                      <th scope="row"><button type="button" class="style-th" data-toggle="modal" data-target="#ModalVip"><b>VIP/VOP</b></button></th>
+                      <td></td>
+                    </tr>
+                    <tr>
+                      <th scope="row"><button type="button" class="style-th" data-toggle="modal" data-target="#ModalP10V"><b>Pneumocócia 10V</b></button></th>
+                      <td></td>
+                    </tr>
+                    <tr>
+                      <th scope="row"><button type="button" class="style-th" data-toggle="modal" data-target="#ModalRH"><b>Rotavírus Humano</b></button></th>
+                      <td></td>
+                    </tr>
+                    <tr>
+                      <th scope="row"><button type="button" class="style-th" data-toggle="modal" data-target="#ModalMenC"><b>Meningocócica C</b></button></th>
+                      <td>01 reforço ou dose única (verificar a situação vacinal - 11 a 14 anos)</td>
+                    </tr>
+                    <tr>
+                      <th scope="row"><button type="button" class="style-th" data-toggle="modal" data-target="#ModalFA"><b>Febre Amarela</b></button></th>
+                      <td>Dose única (verificar a situação vacinal)</td>
+                    </tr>
+                    <tr>
+                      <th scope="row"><button type="button" class="style-th" data-toggle="modal" data-target="#ModalHepatiteA"><b>Hepatite A</b></button></th>
+                      <td></td>
+                    </tr>
+                    <tr>
+                      <th scope="row"><button type="button" class="style-th" data-toggle="modal" data-target="#ModalTriV"><b>Tríplice Viral</b></button></th>
+                      <td>2 doses (verificar a situação vacinal)</td>
+                      </tr>
+                      <tr>
+                        <th scope="row"><button type="button" class="style-th" data-toggle="modal" data-target="#ModalTetV"><b>Tetra Viral</b></button></th>
+                        <td></td>
+                    </tr>
+                     <tr>
+                      <th scope="row"><button type="button" class="style-th" data-toggle="modal" data-target="#ModalVaricela"><b>Varicela</b></button></th>
+                      <td></td>
+
+                    </tr>
+                    <tr>
+                      <th scope="row"><button type="button" class="style-th" data-toggle="modal" data-target="#ModalHPV"><b>HPV</b></button></th>
+                      <td>2 doses (meninas de 9 a 14 anos) 2 doses (meninos de 11 a 14 anos)</td>
+                    </tr>
+                    <tr>
+                      <th scope="row"><button type="button" class="style-th" data-toggle="modal" data-target="#ModalP23V"><b>Pneumocócica 23V</b></button></th>
+                      <td>Uma dose (a depender da situação vacinal)</td>
+                    </tr>
+                    <tr>
+                      <th scope="row"><button type="button" class="style-th" data-toggle="modal" data-target="#ModalDA"><b>Dupla Adulto</b></button></th>
+                      <td>Reforço a cada 10 anos</td>
+                    </tr>
+                    <tr>
+                      <th scope="row"><button type="button" class="style-th" data-toggle="modal" data-target="#ModaldTpa"><b>dTpa</b></button></th>
+                      <td></td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+
+              <div class="tab-pane fade show mt-3" id="nav-item-03" role="tabpanel">
+                <table class="table table-sm table-bordered table-striped">
+                  <thead>
+                    <tr>
+                      <th scope="col"></th>
+                      <th scope="col">Adulto</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <th scope="row"><button type="button" class="style-th" data-toggle="modal" data-target="#ModalBCG"><b>BCG</b></button></th>
+                      <td></td>
+                    </tr>
+                    <tr>
+                      <th scope="row"><button type="button" class="style-th" data-toggle="modal" data-target="#ModalHepatiteB"><b>Hepatite B</b></button></th>
+                      <td>3 doses(Verificar a situação vacinal) </td>
+                    </tr>
+                    <tr>
+                      <th scope="row"><button type="button" class="style-th" data-toggle="modal" data-target="#ModalPenta"><b>Penta/DTP</b></button></th>
+                      <td></td>
+                    </tr>
+                     <tr>
+                      <th scope="row"><button type="button" class="style-th" data-toggle="modal" data-target="#ModalVip"><b>VIP/VOP</b></button></th>
+                      <td></td>
+                    </tr>
+                     <tr>
+                      <th scope="row"><button type="button" class="style-th" data-toggle="modal" data-target="#ModalP10V"><b>Pneumocócia 10V</b></button></th>
+                      <td></td>
+                    </tr>
+                     <tr>
+                      <th scope="row"><button type="button" class="style-th" data-toggle="modal" data-target="#ModalRH"><b>Rotavírus Humano</b></button></th>
+                      <td></td>
+                    </tr>
+                     <tr>
+                      <th scope="row"><button type="button" class="style-th" data-toggle="modal" data-target="#ModalMenC"><b>Meningocócica C</b></button></th>
+                      <td></td>
+                    </tr>
+                     <tr>
+                      <th scope="row"><button type="button" class="style-th" data-toggle="modal" data-target="#ModalFA"><b>Febre Amarela</b></button></th>
+                      <td>Dose única (verificar a situação vacinal)</td>
+                    </tr>
+                     <tr>
+                      <th scope="row"><button type="button" class="style-th" data-toggle="modal" data-target="#ModalHepatiteA"><b>Hepatite A</b></button></th>
+                      <td></td>
+                    </tr>
+                     <tr>
+                      <th scope="row"><button type="button" class="style-th" data-toggle="modal" data-target="#ModalTriV"><b>Tríplice Viral</b></button></th>
+                      <td>2 doses (20 a 29anos) 1 dose (30 a 49anos)</td>
+                    </tr>
+                     <tr>
+                      <th scope="row"><button type="button" class="style-th" data-toggle="modal" data-target="#ModalTetV"><b>Tetra Viral</b></button></th>
+                      <td></td>
+                    </tr>
+                     <tr>
+                      <th scope="row"><button type="button" class="style-th" data-toggle="modal" data-target="#ModalVaricela"><b>Varicela</b></button></th>
+                      <td></td>
+                    </tr>
+                    <tr>
+                      <th scope="row"><button type="button" class="style-th" data-toggle="modal" data-target="#ModalHPV"><b>HPV</b></button></th>
+                      <td></td>
+                    </tr>
+                     <tr>
+                      <th scope="row"><button type="button" class="style-th" data-toggle="modal" data-target="#ModalP23V"><b>Pneumocócica 23V</b></button></th>
+                      <td>Uma dose (a depender da situação vacinal)</td>
+                    </tr>
+                    <tr>
+                      <th scope="row"><button type="button" class="style-th" data-toggle="modal" data-target="#ModalDA"><b>Dupla Adulto</b></button></th>
+                      <td>Reforço a cada 10 anos</td>
+                    </tr>
+                    <tr>
+                      <th scope="row"><button type="button" class="style-th" data-toggle="modal" data-target="#ModaldTpa"><b>dTpa</b></button></th>
+                      <td></td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+
+              <div class="tab-pane fade show mt-3" id="nav-item-04" role="tabpanel">
+                <table class="table table-sm table-bordered table-striped">
+                  <thead>
+                    <tr>
+                      <th scope="col"></th>
+                      <th scope="col">Idoso</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <th scope="row"><button type="button" class="style-th" data-toggle="modal" data-target="#ModalBCG"><b>BCG</b></button></th>
+                      <td></td>
+                    </tr>
+                    <tr>
+                      <th scope="row"><button type="button" class="style-th" data-toggle="modal" data-target="#ModalHepatiteB"><b>Hepatite B</b></button></th>
+                      <td>3 doses (Verificar a situação vacinal) </td>
+                    </tr>
+                    <tr>
+                      <th scope="row"><button type="button" class="style-th" data-toggle="modal" data-target="#ModalPenta"><b>Penta/DTP</b></button></th>
+                      <td></td>
+                    </tr>
+                     <tr>
+                      <th scope="row"><button type="button" class="style-th" data-toggle="modal" data-target="#ModalVip"><b>VIP/VOP</b></button></th>
+                      <td></td>
+                    </tr>
+                     <tr>
+                      <th scope="row"><button type="button" class="style-th" data-toggle="modal" data-target="#ModalP10V"><b>Pneumocócia 10V</b></button></th>
+                      <td></td>
+                    </tr>
+                     <tr>
+                      <th scope="row"><button type="button" class="style-th" data-toggle="modal" data-target="#ModalRH"><b>Rotavírus Humano</b></button></th>
+                      <td></td>
+                    </tr>
+                     <tr>
+                      <th scope="row"><button type="button" class="style-th" data-toggle="modal" data-target="#ModalMenC"><b>Meningocócica C</b></button></th>
+                      <td></td>
+                    </tr>
+                     <tr>
+                      <th scope="row"><button type="button" class="style-th" data-toggle="modal" data-target="#ModalFA"><b>Febre Amarela</b></button></th>
+                      <td>Dose única (verificar a situação vacinal)</td>
+                    </tr>
+                     <tr>
+                      <th scope="row"><button type="button" class="style-th" data-toggle="modal" data-target="#ModalHepatiteA"><b>Hepatite A</b></button></th>
+                      <td></td>
+                    </tr>
+                     <tr>
+                      <th scope="row"><button type="button" class="style-th" data-toggle="modal" data-target="#ModalTriV"><b>Tríplice Viral</b></button></th>
+                      <td></td>
+                    </tr>
+                     <tr>
+                      <th scope="row"><button type="button" class="style-th" data-toggle="modal" data-target="#ModalTetV"><b>Tetra Viral</b></button></th>
+                      <td></td>
+                    </tr>
+                     <tr>
+                      <th scope="row"><button type="button" class="style-th" data-toggle="modal" data-target="#ModalVaricela"><b>Varicela</b></button></th>
+                      <td></td>
+                    </tr>
+                    <tr>
+                      <th scope="row"><button type="button" class="style-th" data-toggle="modal" data-target="#ModalHPV"><b>HPV</b></button></th>
+                      <td></td>
+                    </tr>
+                     <tr>
+                      <th scope="row"><button type="button" class="style-th" data-toggle="modal" data-target="#ModalP23V"><b>Pneumocócica 23V</b></button></th>
+                      <td>Reforço</td>
+                    </tr>
+                    <tr>
+                      <th scope="row"><button type="button" class="style-th" data-toggle="modal" data-target="#ModalDA"><b>Dupla Adulto</b></button></th>
+                      <td>Reforço a cada 10 anos</td>
+                    </tr>
+                    <tr>
+                      <th scope="row"><button type="button" class="style-th" data-toggle="modal" data-target="#ModaldTpa"><b>dTpa</b></button></th>
+                      <td></td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+
+              <div class="tab-pane fade show mt-3" id="nav-item-05" role="tabpanel">
+                <table class="table table-sm table-bordered table-striped">
+                  <thead>
+                    <tr>
+                      <th scope="col"></th>
+                      <th scope="col">Gestante</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <th scope="row"><button type="button" class="style-th" data-toggle="modal" data-target="#ModalBCG"><b>BCG</b></button></th>
+                      <td></td>
+                    </tr>
+                    <tr>
+                      <th scope="row"><button type="button" class="style-th" data-toggle="modal" data-target="#ModalHepatiteB"><b>Hepatite B</b></button></th>
+                      <td>3 doses (Verificar a situação vacinal)</td>
+                    </tr>
+                    <tr>
+                      <th scope="row"><button type="button" class="style-th" data-toggle="modal" data-target="#ModalPenta"><b>Penta/DTP</b></button></th>
+                      <td></td>
+                    </tr>
+                     <tr>
+                      <th scope="row"><button type="button" class="style-th" data-toggle="modal" data-target="#ModalVip"><b>VIP/VOP</b></button></th>
+                      <td></td>
+                    </tr>
+                     <tr>
+                      <th scope="row"><button type="button" class="style-th" data-toggle="modal" data-target="#ModalP10V"><b>Pneumocócia 10V</b></button></th>
+                      <td></td>
+                    </tr>
+                     <tr>
+                      <th scope="row"><button type="button" class="style-th" data-toggle="modal" data-target="#ModalRH"><b>Rotavírus Humano</b></button></th>
+                      <td></td>
+                    </tr>
+                     <tr>
+                      <th scope="row"><button type="button" class="style-th" data-toggle="modal" data-target="#ModalMenC"><b>Meningocócica C</b></button></th>
+                      <td></td>
+                    </tr>
+                     <tr>
+                      <th scope="row"><button type="button" class="style-th" data-toggle="modal" data-target="#ModalFA"><b>Febre Amarela</b></button></th>
+                      <td></td>
+                    </tr>
+                     <tr>
+                      <th scope="row"><button type="button" class="style-th" data-toggle="modal" data-target="#ModalHepatiteA"><b>Hepatite A</b></button></th>
+                      <td></td>
+                    </tr>
+                     <tr>
+                      <th scope="row"><button type="button" class="style-th" data-toggle="modal" data-target="#ModalTriV"><b>Tríplice Viral</b></button></th>
+                      <td></td>
+                    </tr>
+                     <tr>
+                      <th scope="row"><button type="button" class="style-th" data-toggle="modal" data-target="#ModalTetV"><b>Tetra Viral</b></button></th>
+                      <td></td>
+                    </tr>
+                     <tr>
+                      <th scope="row"><button type="button" class="style-th" data-toggle="modal" data-target="#ModalVaricela"><b>Varicela</b></button></th>
+                      <td></td>
+                    </tr>
+                    <tr>
+                      <th scope="row"><button type="button" class="style-th" data-toggle="modal" data-target="#ModalHPV"><b>HPV</b></button></th>
+                      <td></td>
+                    </tr>
+                     <tr>
+                      <th scope="row"><button type="button" class="style-th" data-toggle="modal" data-target="#ModalP23V"><b>Pneumocócica 23V</b></button></th>
+                      <td></td>
+                    </tr>
+                    <tr>
+                      <th scope="row"><button type="button" class="style-th" data-toggle="modal" data-target="#ModalDA"><b>Dupla Adulto</b></button></th>
+                      <td>3 doses (verificar a situação vacinal)</td>
+                    </tr>
+                    <tr>
+                      <th scope="row"><button type="button" class="style-th" data-toggle="modal" data-target="#ModaldTpa"><b>dTpa</b></button></th>
+                      <td>Uma dose a cada gestação a partir da 20ª semana</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+
+            </div>
+        </div>
+      </div>
+    </div>
+      
+    <!-- CALENDARIO NACIONAL  -->
+
+    <!-- SOBRE  -->
+    <div id="sobre" class="jumbotron jumbotron-fluid mt-3">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 text-center">
+            <h2 class="display-4">Sobre</h2>
+
+            <!-- <p style="font-size: 20px;">Informações gerais do site</p> -->
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <h1 style="text-align: center;">Vacinfo</h1>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-8">
+          <h3>Quem somos?</h3>
+          <p>Somos estudantes de Ciência da Computação do <a href="http://www.unibh.br/" target=“_blank”>Centro Universitário de Belo Horizonte (UniBH)</a>,  estamos no 8º Semestre, o Website é parte do produto final do nosso TCC (Trabalho de Conclusão de Curso).</p>
+          <h3>Objetivo</h3>
+          <p>O objetivo do nosso Website é a disponibilização de informações do atual cenário vacinal, esses dados foram levantados através de um <a href="https://docs.google.com/forms/d/e/1FAIpQLScb1Az979Hz3_TkxwbqB0xFpCnm_uLJypfh8OqJBbn-_YKhnw/viewform"  target=“_blank”>questionário</a> e em seguida analisados com técnicas de mineração de dados.</p>
+          <h3>Por que?</h3>
+          <p>Após diversas tentativas em procurar algumas informações a respeito do cenário de vacinação e não obter sucesso, se observou uma oportunidade em coletar dados para uma análise através de um formulário e assim fornecê-los para consultas de instituições públicas ou privadas de saúde.</p>
+        </div>
+        <div class="col-md-4">
+          <img src="imgs/photo1.jpg">
+          <p style="font-size: 14px; text-align:center;">Raphael Avelar e Diego Victor</p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-12">
+          <h3 style="text-align: center;">Formulário</h3>
+          <p style="text-align: center;">O formulário utilizado para a coleta de informações pode ser acessado através desse link: <a href="https://docs.google.com/forms/d/e/1FAIpQLScb1Az979Hz3_TkxwbqB0xFpCnm_uLJypfh8OqJBbn-_YKhnw/viewform" target=“_blank”>Análise de Cobertura e Disseminação de Informação Vacinal</a></p>
+
+          <h3 style="text-align: center;">Fontes</h3>
+          <p style="font-size: 12px; text-align: center;">Calendário Nacional de Vacinação (Ministério da Saúde): <a href="http://portalms.saude.gov.br/acoes-e-programas/vacinacao/orientacoes-sobre-vacinacao" target=“_blank”>Site Oficial - Ministério da Saúde</a></p>
+          <p style="font-size: 12px; text-align: center;">As imagens utilizadas foram fornecidas pelo site: <a href="https://www.freepik.com/" target=“_blank”>Background image created by Jcomp - Freepik.com</a></p>
+        </div>
+      </div>
+    </div>    
+    <!-- SOBRE  -->
+
+    <!-- RODAPÉ  -->
+    <div class="col-12 mt-5">
+      <blockquote class="blockquote text-center">
+        <p class="mb-0">&copy; 2018 - Vacinfo | Informações do Cenário Vacinal</p>
+      </blockquote>      
+    </div>
+    <!-- RODAPÉ  -->
+
+    <!-- MODAL BCG  -->
+    <div class="modal fade" id="ModalBCG" tabindex="-1" role="dialog" aria-labelledby="TituloModalCentralizado" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="TituloModalCentralizado"><h4 style="text-align: center; color: #007bff;">BCG</h4></h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <p>A vacina BCG é uma importante aliada para saúde do bebê. Pois estimula a criação de anticorpos ajudando o a se proteger contra a tuberculose. A recomendação é de vacinar ao nascer. Mas caso isso não ocorra ela pode ser domada até os cinco anos. A vacina BCG e de uma única dose para a vida toda. Uma das possíveis reações à vacina são gânglios e abscessos na pele e axilas.</p>
+            <h4><font color="red">Contra: </font><em> Tuberculose</em></h4>
+
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- MODAL BCG  -->
+
+    <!-- MODAL Hepatite B  -->
+    <div class="modal fade" id="ModalHepatiteB" tabindex="-1" role="dialog" aria-labelledby="TituloModalCentralizado" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="TituloModalCentralizado"><h4 style="text-align: center; color: #007bff;">Hepatite B</h4></h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <p>A vacina da Hepatite B é obrigatória de acordo com o calendário de vacinação nacional, a Hepatite B é a inflamação do fígado devido à infecção causada pelo vírus. É necessárias 3 doses da vacina, a 1ª aplicação pode ser em qualquer data, a 2ª aplicação 1 mês após a primeira dose e a 3ª aplicação 6 meses após a primeira dose. Algumas das reações adversas são: febra baixa nos primeiros dois dias, reações alérgicas para pessoas que são alérgicos a leveduras.</p>
+            <h4><font color="red">Contra: </font><em> Hepatite B</em></h4>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- MODAL Hepatite B  -->
+
+    <!-- MODAL Penta/DTP  -->
+    <div class="modal fade" id="ModalPenta" tabindex="-1" role="dialog" aria-labelledby="TituloModalCentralizado" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="TituloModalCentralizado"><h4 style="text-align: center; color: #007bff;">Penta/DTP</h4></h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <p>A vacina Penta/DTP é uma vacina combinada que foi desenvolvida a fim de diminuir o número de injeções de uma só vez, ela previne doenças como coqueluche, hepatite B, pneumonias, meningite, sarampo, rubéola, difteria. Está vacina e indicada para crianças a partir de dois meses de idade, é necessárias três doses, com um intervalo de dois meses após a primeira aplicação, sendo necessário além disso fazer dois reforços o primeiro após 15 meses o segundo após 48 meses. Algumas das reações adversas são: febra baixa nas primeiras 24 horas, pode ocorrer dor no local da aplicação sintomas como endurecimento, inchaço e vermelhidão.</p>
+            <h4><font color="red">Contra: </font><em> Sarampo, rubéola, difteria, coqueluche, hepatite B, pneumonias, meningite, rotavírus e poliomielite.</em></h4>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- MODAL Penta/DTP -->
+
+    <!-- MODAL VIP/VOP  -->
+    <div class="modal fade" id="ModalVip" tabindex="-1" role="dialog" aria-labelledby="TituloModalCentralizado" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="TituloModalCentralizado"><h4 style="text-align: center; color: #007bff;">VIP/VOP</h4></h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+                <p>As vacinas VIP/VOP são de extrema importância para as crianças pois ajudam a evitar a paralisia infantil pois se trata de uma doença altamente contagiosa, sendo transmitida de pessoa a pessoa. A vacina VIP e injetável sendo necessário duas doses, a primeira aos 2 meses de idade e a segunda aos 4 meses. Já a VOP deve ser ingerida em forma de gotinhas, também sendo necessário duas doses, a primeira aos 6 meses de idade e a segunda aos 15 meses. A vacina VOP é indicado um jejum de 1 hora antes e 1 hora depois da vacina. Uma das possíveis reações à vacina é diarreia.</p>
+                <h4><font color="red">Contra: </font><em> Poliomielite</em></h4>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- MODAL VIP/VOP -->
+
+    <!-- MODAL Pneumocócica 10 -->
+    <div class="modal fade" id="ModalP10V" tabindex="-1" role="dialog" aria-labelledby="TituloModalCentralizado" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="TituloModalCentralizado"><h4 style="text-align: center; color: #007bff;">Pneumocócica 10</h4></h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+                <p>A vacina Pneumocócica 10 Valente Conjugada (VPC10) e utilizada para prevenir dez sorotipos de pneumococos, dentre elas a meningite, pneumonia entre outras. É indicada para crianças a partir de 2 meses até os 6 anos de idade. Para adultos e recomendado o (VPC13) ou (VPC23). A primeira imunização consiste em 3 doses, com intervalo de 2 meses entre as doses, é indicado a partir de 2 meses de idade. Recomenda-se uma dose de reforço no segundo ano de vida. Algumas das reações adversas são: Perda de apetite, sonolência, dor, vermelhidão e inchaço no local da injeção e febre.</p>
+                <h4><font color="red">Contra: </font><em> Pneumonia, meningite, otite</em></h4>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- MODAL Pneumocócica 10 -->
+
+    <!-- MODAL Rotavírus Humano -->
+    <div class="modal fade" id="ModalRH" tabindex="-1" role="dialog" aria-labelledby="TituloModalCentralizado" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="TituloModalCentralizado"><h4 style="text-align: center; color: #007bff;">Rotavírus Humano</h4></h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+                <p>A vacina contra o Rotavírus ajuda na proteção de gastroenterites causadas pelo vírus, sua aplicação é via oral, sendo necessário 2 doses da vacina. É indicado para os 2 meses de vida a primeira dose, e a segunda dose aos 4 meses de vida. É contraindicado para crianças que apresentaram problemas gastrointestinal crônica ou com imunodeficiências primárias e secundárias. Efeitos adversos como invaginação pode ocorrer apesar do risco ser menor do que a gastrenterite causada pelo rotavírus, também pode ocorrer sintomas de gastrenterite.</p>
+                <h4><font color="red">Contra: </font><em> Rotavírus</em></h4>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- MODAL Rotavírus Humano -->
+
+    <!-- MODAL Meningocócica C -->
+    <div class="modal fade" id="ModalMenC" tabindex="-1" role="dialog" aria-labelledby="TituloModalCentralizado" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="TituloModalCentralizado"><h4 style="text-align: center; color: #007bff;">Meningocócica C</h4></h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+                <p>A vacina Meningocócica C é utilizada para prevenção de doenças como a meningite e a sepse. É recomendado a vacinação de crianças entre 3 mês até 1 ano de idade, sendo necessário duas doses com intervalo mínimo de 30 dias da primeira vacinação, e depois um reforço até no máximo de 4 anos de idade. Alguns efeitos adversos possíveis são: edema, rubor, endurecimento e dor na região onde ocorreu a vacinação.</p>
+                <h4><font color="red">Contra: </font><em> Doenças causadas pelo meningococo C (meningite, meningococcemia entre outras)</em></h4>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- MODAL Meningocócica C -->
+
+    <!-- MODAL Febre Amarela -->
+    <div class="modal fade" id="ModalFA" tabindex="-1" role="dialog" aria-labelledby="TituloModalCentralizado" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="TituloModalCentralizado"><h4 style="text-align: center; color: #007bff;">Febre Amarela</h4></h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+                <p>A vacina contra Febre Amarela está disponível durante o ano todo nos postos de saúde. É recomendada para bebês a partir dos 9 meses de vida, sendo necessário uma única dose. Existe algumas contraindicações nos seguintes casos: crianças menores de 9 meses de vida, gestantes, portadores de imundos pressões graves, alérgicos ao ovo, portadores de lúpus, artrite reumatoide, doenças de Addison e do Tino, entre outras. Efeitos adversos possíveis como dor de cabeça e febre. O vírus da Febra Amarela é transmitido por meio da picada de mosquito.</p>
+                <h4><font color="red">Contra: </font><em> Febre amarela</em></h4>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- MODAL Febre Amarela -->
+
+    <!-- MODAL Hepatite A -->
+    <div class="modal fade" id="ModalHepatiteA" tabindex="-1" role="dialog" aria-labelledby="TituloModalCentralizado" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="TituloModalCentralizado"><h4 style="text-align: center; color: #007bff;">Hepatite A</h4></h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+                <p>A vacina contra Hepatite A Estimula a produção de anticorpos para imunização do vírus. É necessária uma única dose, sendo indicada para crianças a partir dos 15 meses de vida. A vacina pode ocasionar alguns efeitos colaterais como: surgimento de dores de cabeça, dor de barriga, diarreia, vômitos, cansaço excessivo e dor nas articulações.</p>
+                <h4><font color="red">Contra: </font><em> Hepatite A</em></h4>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- MODAL Hepatite A -->
+
+    <!-- MODAL Tríplice Viral -->
+    <div class="modal fade" id="ModalTriV" tabindex="-1" role="dialog" aria-labelledby="TituloModalCentralizado" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="TituloModalCentralizado"><h4 style="text-align: center; color: #007bff;">Tríplice Viral</h4></h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+                <p>A vacina do tríplice viral é um combinatório de vírus atenuados para prevenção de doenças como sarampo, caxumba e rubéola. Apesar da rubéola e o sarampo estarem erradicadas no Brasil, é de extrema importância a vacina para evitar o reaparecimento da doença no continente brasileiro. A vacina é indicada para crianças com mais de 1 ano de vida, sendo necessário duas doses para pessoas com menos de 30 anos de idade após essa idade caso ainda não tenha se vacinado antes e necessário apenas 1 única dose da vacina.</p>
+                <h4><font color="red">Contra: </font><em> Sarampo, caxumba e rubéola</em></h4>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- MODAL Tríplice Viral -->
+
+    <!-- MODAL Tetra Viral -->
+    <div class="modal fade" id="ModalTetV" tabindex="-1" role="dialog" aria-labelledby="TituloModalCentralizado" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="TituloModalCentralizado"><h4 style="text-align: center; color: #007bff;">Tetra Viral</h4></h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+                <p>A vacina da tetra viral é parecida com a da vacina tríplice viral e consiste na combinação de vírus em uma única vacina, no caso da tetra viral ajuda na imunização contra as doenças de caxumba, sarampo, rubéola e catapora. A vacina é indicada a partir de 12 meses de vida. As contraindicações são para alérgicos a ovos, gestantes, crianças com neoplasias malignas e sob efeito de corticosteroides, pessoas com imunossupressores ou radioterapias deve adiar a vacinação. Efeitos adversos possíveis como febre.</p>
+                <h4><font color="red">Contra: </font><em> Sarampo, caxumba, rubéola e catapora</em></h4>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- MODAL Tetra Viral -->
+
+    <!-- MODAL Varicela -->
+    <div class="modal fade" id="ModalVaricela" tabindex="-1" role="dialog" aria-labelledby="TituloModalCentralizado" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="TituloModalCentralizado"><h4 style="text-align: center; color: #007bff;">Varicela</h4></h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+                <p>A vacina contra Varicela ou catapora é preparada de vírus vivos atenuados. É indicada para crianças com idade entre 1 aos 12 anos de vida, sendo necessário uma única dose, no caso de um adulto não tenha se vacinado e necessário 2 doses. É contraindicado para gestantes, pessoas com deficiência no sistema imunológico. Efeitos adversos podem surgir como febre e dor no local da injeção.</p>
+                <h4><font color="red">Contra: </font><em> Catapora</em></h4>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- MODAL Varicela -->
+
+    <!-- MODAL HPV -->
+    <div class="modal fade" id="ModalHPV" tabindex="-1" role="dialog" aria-labelledby="TituloModalCentralizado" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="TituloModalCentralizado"><h4 style="text-align: center; color: #007bff;">HPV</h4></h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+                <p>A vacina contra o HPV e o câncer do colo de útero, também conhecida como papiloma vírus. Esta vacina é distribuída gratuitamente nos postos de saúde e pelo SUS, a vacina oferecida pelo SUS é a quadrivalente, que protege contra quatro tipo de vírus HPV, caso a pessoa vacinada seja infectada a doença não irá se desenvolver. Pelo SUS é possível vacinar entre 9 e 14 anos de idade, sendo necessário de 2 a 3 doses da vacina. É contraindicado para gestantes e em caso de doenças como a trombocitopenia pelo fato da redução no número de plaquetas. A vacina possui efeitos colaterais como febre e dor de cabeça.</p>
+                <h4><font color="red">Contra: </font><em> HPV e o câncer do colo de útero. </em></h4>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- MODAL HPV -->
+
+    <!-- MODAL Pneumocócica 23V -->
+    <div class="modal fade" id="ModalP23V" tabindex="-1" role="dialog" aria-labelledby="TituloModalCentralizado" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="TituloModalCentralizado"><h4 style="text-align: center; color: #007bff;">Pneumocócica 23V</h4></h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+                <p>A vacina Pneumocócica 23V ajuda na prevenção de infecções de bacteremia e pneumonia, ela consiste nos 23 tipos mais recorrentes de pneumococos de Streptococcus pneumonia. Para realizar a vacinação e necessário a orientação de um médico, ou para maiores de 60 anos. É contraindicada para crianças menores de dois anos. Pode ocorrer efeitos adversos como: dor no local onde ocorreu a vacina, endurecimento, inchaço, vermelhidão manchas vermelha, cansaço e dores musculares.</p>
+                <h4><font color="red">Contra: </font><em> Doenças causadas por 23 tipos de pneumococos</em></h4>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- MODAL Pneumocócica 23V -->
+
+    <!-- MODAL Dupla Adulto -->
+    <div class="modal fade" id="ModalDA" tabindex="-1" role="dialog" aria-labelledby="TituloModalCentralizado" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="TituloModalCentralizado"><h4 style="text-align: center; color: #007bff;">Dupla Adulto</h4></h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+                <p>A vacina Dupla Adulto ajuda na prevenção do tétano e difteria, e está disponível a partir dos 10 anos de idade nos postos de saúde, sendo necessário o reforço a cada 10 anos. A vacina e contraindicado para menores de 7 anos e para alérgicos a algum componente da vacina. Pode ocorrer efeitos adversos como: vermelhidão e inchaço no local onde ocorreu a vacinação, em alguns casos febre, sonolência, mal-estar e vômitos.</p>
+                <h4><font color="red">Contra:</font><em> Difteria e tétano.</em></h4>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- MODAL Dupla Adulto -->
+
+    <!-- MODAL dTpa7 -->
+    <div class="modal fade" id="ModaldTpa" tabindex="-1" role="dialog" aria-labelledby="TituloModalCentralizado" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="TituloModalCentralizado"><h4 style="text-align: center; color: #007bff;">dTpa7</h4></h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+                <p>A vacina dTpa7 auxilia na proteção de doenças como a difteria, tétano e coqueluche. Ela e indicada para gestantes a partir da 20ª semana de gravidez, pois auxilia a produção de anticorpos que irão ajudar na proteção do bebê. Pode surgir alguns efeitos colaterais como: dor, formação de nódulos e vermelhidão no local onde ocorreu a vacinação, em alguns casos pode causar irritabilidade, febre e sonolência.</p>
+                <h4><font color="red">Contra:</font><em> Difteria, tétano e coqueluche.</em></h4>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- MODAL dTpa7 -->
+
+
+    <!-- JavaScript (Opcional) -->
+    <!-- jQuery primeiro, depois Popper.js, depois Bootstrap JS -->
+    <script src="js/scripts.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+  </body>
+</html>
