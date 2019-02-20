@@ -1,4 +1,4 @@
-# webVacinfo
+# Vacinfo | Cenário Vacinal
 
 Web Site utilizado para apresentar todo o conteúdo adquirido com a mineração de dados do TCC (Trabalho de Conclusão de Curso).
 
