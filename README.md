@@ -4,8 +4,8 @@ Web Site utilizado para apresentar todo o conteúdo adquirido com a mineração 
 
 Título do TCC: PESQUISA VACINAL E ANÁLISE DE COMPORTAMENTO DA REGIÃO SUDESTE NO CENÁRIO DE IMUNIZAÇÃO.
 
-Linguagens: Html / CSS
+Tecnologias utilizadas: HTML / CSS
+
 Framework: BootStrap
 
 OBS*: Site estático, não tem conexão com banco de dados.
-
